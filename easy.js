@@ -10,7 +10,7 @@ let crunchyi = 0;
     }))
   }
   return setInterval(function(){
-    if (crunchyi % 5 == 0){
+    if (crunchyi % 10 == 0){
       cmd('execute as @a run warp rooms');
       setTimeout(function(){
         cmd('execute at @p run spawnpoint @a');
