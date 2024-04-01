@@ -8,10 +8,10 @@
       keyCode: 13,
     }))
   }
-  setInterval(function(){
-    cmd('execute as @a run warp ' + Math.random())
+  return setInterval(function(){
+    cmd('execute as @a run warp ' + Math.random());
     setTimeout(function(){
-      cmd('execute at @p run spawnpoint @a')
-    },15000)
-  },60000)
+      cmd('execute at @p run spawnpoint @a');
+    },15000);
+  },120000);
 })()
