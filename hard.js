@@ -13,5 +13,5 @@
     setTimeout(function(){
       cmd('execute at @p run spawnpoint @a');
     },15000);
-  },120000);
+  },60000);
 })()
