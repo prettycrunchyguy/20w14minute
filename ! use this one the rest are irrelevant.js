@@ -16,7 +16,7 @@ let crunchyi = 0;
         cmd('execute at @p run spawnpoint @a');
       },15000);
     }else{
-      cmd('execute as @a in minecraft:the_overworld run tp @a ~ ~ ~');
+      cmd('execute as @a run warp ' + Math.random());
       setTimeout(function(){
         cmd('execute at @p run spawnpoint @a');
       },15000);
