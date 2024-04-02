@@ -10,8 +10,8 @@ let crunchyi = 0;
     }))
   }
   return setInterval(function(){
-    if (crunchyi % 10 == 0){
-      cmd('execute as @a run warp llama');
+    if (crunchyi % 5 == 0){
+      cmd('execute as @a run warp isolation');
       setTimeout(function(){
         cmd('execute at @p run spawnpoint @a');
       },15000);
